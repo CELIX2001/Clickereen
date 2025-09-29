@@ -1,8 +1,8 @@
-# 🚀 Clickereen - Modern Social Media Platform
+# Clickereen - Modern Social Media Platform
 
 A professional-grade social media platform built with modern technologies, featuring real-time interactions, analytics, and live streaming capabilities.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Frontend (Next.js 14 + React 18)
 - **Framework**: Next.js 14 with App Router
@@ -20,7 +20,7 @@ A professional-grade social media platform built with modern technologies, featu
 - **Storage**: In-memory storage (no database required)
 - **File Upload**: Multer for media handling
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -116,16 +116,16 @@ clickereen/
 └── README.md                   # This file
 ```
 
-## 🎯 Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 - JWT-based authentication
 - Passwordless demo access
 - User registration and login
 - Profile management
 - Social login integration (UI ready)
 
-### 📱 Social Media Core
+### Social Media Core
 - **Posts**: Create, like, comment, retweet, share
 - **Feed**: Infinite scroll with real-time updates
 - **Users**: Follow/unfollow, user discovery
@@ -133,32 +133,32 @@ clickereen/
 - **Comments**: Nested comment system with replies
 - **Media**: Image and video upload support
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 - **Engagement Metrics**: Likes, comments, shares, views
 - **Audience Insights**: Demographics, interests, locations
 - **Content Performance**: Top posts, hashtag analytics
 - **Growth Tracking**: Follower growth, engagement trends
 - **Real-time Updates**: Live analytics data
 
-### 📺 Live Streaming
+### Live Streaming
 - **Stream Management**: Create, start, end streams
 - **Viewer Tracking**: Real-time viewer counts
 - **Stream Discovery**: Find and join live streams
 - **Streamer Profiles**: Streamer information and stats
 
-### 🔍 Search & Discovery
+### Search & Discovery
 - **Global Search**: Search posts, users, hashtags
 - **Trending Topics**: Real-time trending topics
 - **Advanced Filters**: Search by type, date, popularity
 - **Smart Suggestions**: AI-powered content suggestions
 
-### ⚙️ Admin Features
+### Admin Features
 - **User Management**: User administration and moderation
 - **Content Moderation**: Post and comment moderation
 - **Analytics Overview**: Platform-wide analytics
 - **System Monitoring**: Health checks and performance metrics
 
-## 🛠️ API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -216,7 +216,7 @@ clickereen/
 - `GET /api/media/:id` - Get media info
 - `DELETE /api/media/:id` - Delete media
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -241,7 +241,7 @@ MONGODB_URI=mongodb://localhost:27017/clickereen
 
 The frontend is configured to connect to the backend automatically. No additional configuration is needed for development.
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment
 1. Set up environment variables
@@ -252,7 +252,7 @@ The frontend is configured to connect to the backend automatically. No additiona
 1. Build the application: `npm run build`
 2. Start the production server: `npm start`
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 ```bash
@@ -266,7 +266,7 @@ cd clickereen-frontend
 npm test
 ```
 
-## 📝 Development
+## Development
 
 ### Adding New Features
 1. Backend: Add new routes in the `routes/` directory
@@ -281,7 +281,7 @@ npm test
 - Write clean, readable code
 - Add comments for complex logic
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -289,11 +289,11 @@ npm test
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🆘 Support
+## Support
 
 If you encounter any issues or have questions:
 1. Check the documentation
@@ -302,4 +302,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Built with ❤️ using Next.js, React, Node.js, and Express**
+**Built with using Next.js, React, Node.js, and Express**
