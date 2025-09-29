@@ -30,8 +30,8 @@ A professional-grade social media platform built with modern technologies, featu
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd clickereen
+   git clone https://github.com/CELIX2001/Clickereen.git
+   cd Clickereen
    ```
 
 2. **Install dependencies**
