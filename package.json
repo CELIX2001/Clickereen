@@ -1,0 +1,53 @@
+{
+  "name": "clickereen",
+  "version": "1.0.0",
+  "description": "A modern social media platform built with Next.js and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd clickereen-backend && npm run dev",
+    "dev:frontend": "cd clickereen-frontend && npm run dev",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd clickereen-frontend && npm run build",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd clickereen-backend && npm start",
+    "start:frontend": "cd clickereen-frontend && npm start",
+    "install:all": "npm install && cd clickereen-backend && npm install && cd ../clickereen-frontend && npm install",
+    "clean": "rm -rf node_modules clickereen-backend/node_modules clickereen-frontend/node_modules",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd clickereen-backend && npm test",
+    "test:frontend": "cd clickereen-frontend && npm test",
+    "lint": "npm run lint:frontend",
+    "lint:frontend": "cd clickereen-frontend && npm run lint",
+    "type-check": "cd clickereen-frontend && npm run type-check"
+  },
+  "keywords": [
+    "social-media",
+    "nextjs",
+    "react",
+    "nodejs",
+    "express",
+    "typescript",
+    "tailwindcss",
+    "real-time",
+    "analytics",
+    "live-streaming"
+  ],
+  "author": "Clickereen Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/clickereen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/clickereen/issues"
+  },
+  "homepage": "https://github.com/your-username/clickereen#readme"
+}
